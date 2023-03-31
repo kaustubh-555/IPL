@@ -1,0 +1,50 @@
+*{
+    border:0%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url("./SAIT.png") no-repeat center center/cover;
+    color: black;
+    text-align: center;
+}
+.div{
+    margin-top: 130px;
+}
+button{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 0cm;
+    display: inline-block;
+    width:30%;
+    min-width: fit-content;
+}
+#display{
+    padding: 10px;
+    width: fit-content;
+    font-size: 8rem;
+    margin: auto;
+}
+#countel{
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+#inc {
+    background-color: rgb(190, 0, 0);
+}
+#dec{
+    background-color: green;
+}
+#sav{
+    background-color: blueviolet;
+}
+#inc:hover,#dec:hover,#sav:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
