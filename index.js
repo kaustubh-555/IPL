@@ -9,7 +9,7 @@ function increment(){
         count=parseInt(num.value)
     }
     count+=20
-    display.innerHTML=`${count}`
+    display.innerHTML=`${count} L`
 }
 function decrement(){
     count = count-20
@@ -17,7 +17,7 @@ function decrement(){
 }
 function save(){
     newPlayer=true;
-    prev.textContent+=count + " - "
+    prev.textContent+=count + "L  "
     count = 0
     num.textContent=count
 }
