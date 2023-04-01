@@ -19,5 +19,6 @@ function save(){
     newPlayer=true;
     prev.textContent+=count + "L  "
     count = 0
-    num.textContent=count
+    num.value=0;
+    display.textContent=0;
 }
