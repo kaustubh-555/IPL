@@ -17,6 +17,9 @@ function decrement(){
 }
 function save(){
     newPlayer=true;
+    if(count==0){
+        count=num.value;
+    }
     prev.textContent+=count + "L  "
     count = 0
     num.value=0;
