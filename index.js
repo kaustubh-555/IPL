@@ -13,7 +13,7 @@ function increment(){
 }
 function decrement(){
     count = count-20
-    display.innerText=count
+    display.innerText=`${count} L`
 }
 function save(){
     newPlayer=true;
